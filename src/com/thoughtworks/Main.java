@@ -25,5 +25,9 @@ public class Main {
         diamondExercises.diamond(count);
         System.out.println("\ndiamondWithName:");
         diamondExercises.diamondWithName(count);
+
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        System.out.println("\nFizzBuzz:");
+        fizzBuzz.fizzBuzz();
     }
 }
