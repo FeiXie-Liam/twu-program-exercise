@@ -29,5 +29,9 @@ public class Main {
         FizzBuzz fizzBuzz = new FizzBuzz();
         System.out.println("\nFizzBuzz:");
         fizzBuzz.fizzBuzz();
+
+        PrimeFactorsExercises primeFactorsExercises = new PrimeFactorsExercises();
+        System.out.println("\nPrimeFactors:");
+        primeFactorsExercises.generate(147);
     }
 }
